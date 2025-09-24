@@ -139,4 +139,89 @@ Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-(base) mayanksumra@Mayanks-MacBook-Air python % 
+(base) mayanksumra@Mayanks-MacBook-Air python % git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    hello
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Terminal logs
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) mayanksumra@Mayanks-MacBook-Air python % git add .
+(base) mayanksumra@Mayanks-MacBook-Air python % git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    hello -> Terminal logs
+
+(base) mayanksumra@Mayanks-MacBook-Air python % git commit -m "renamed hello to Terminal logs"
+[main 69d806a] renamed hello to Terminal logs
+ 1 file changed, 44 insertions(+)
+ rename hello => Terminal logs (70%)
+(base) mayanksumra@Mayanks-MacBook-Air python % git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) mayanksumra@Mayanks-MacBook-Air python % git push original main
+fatal: 'original' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) mayanksumra@Mayanks-MacBook-Air python % git push origin main  
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.49 KiB | 1.49 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mayanksumra/python.git
+   6e1c177..69d806a  main -> main
+(base) mayanksumra@Mayanks-MacBook-Air python % cd ..
+(base) mayanksumra@Mayanks-MacBook-Air Git % cd ..
+(base) mayanksumra@Mayanks-MacBook-Air Programming % cd Python Learning
+cd: string not in pwd: Python
+(base) mayanksumra@Mayanks-MacBook-Air Programming % cd "Python Learning"
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % ls -a
+.                                               Basic Problems
+..                                              Basics
+.DS_Store                                       Binary
+.idea                                           IMG_0088.PNG
+.vscode                                         Image 23-09-25 at 12.16 PM.PNG
+Advanced by Mistake                             Screenshot 2025-08-22 at 12.57.06 AM.png
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git remote add Programming https://github.com/mayanksumra/Programming.git
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git remote -v
+Programming     https://github.com/mayanksumra/Programming.git (fetch)
+Programming     https://github.com/mayanksumra/Programming.git (push)
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git branch
+* main
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git push Programming main
+Enumerating objects: 263, done.
+Counting objects: 100% (263/263), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (251/251), done.
+Writing objects: 100% (263/263), 28.58 MiB | 11.73 MiB/s, done.
+Total 263 (delta 36), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (36/36), done.
+To https://github.com/mayanksumra/Programming.git
+ * [new branch]      main -> main
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git log
+commit eaf6efa5c863b8db8f1cfc9fb51d3a2b0bcb2c09 (HEAD -> main, Programming/main)
+Author: Mayank Sumra <mayanksumra55@gmail.com>
+Date:   Wed Sep 24 13:11:01 2025 +0530
+
+    added Python Learning
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % 
