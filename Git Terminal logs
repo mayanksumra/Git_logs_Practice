@@ -202,6 +202,484 @@ cd: string not in pwd: Python
 .idea                                           IMG_0088.PNG
 .vscode                                         Image 23-09-25 at 12.16 PM.PNG
 Advanced by Mistake                             Screenshot 2025-08-22 at 12.57.06 AM.png
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git init
+Initialized empty Git repository in /Users/mayanksumra/Programming/Python Learning/.git/
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        .idea/
+        .vscode/
+        Advanced by Mistake/
+        Basic Problems/
+        Basics/
+        Binary/
+        IMG_0088.PNG
+        "Image 23-09-25 at 12.16\342\200\257PM.PNG"
+        "Screenshot 2025-08-22 at 12.57.06\342\200\257AM.png"
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git add .
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .DS_Store
+        new file:   .idea/.gitignore
+        new file:   .idea/Python Learning.iml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .vscode/settings.json
+        new file:   Advanced by Mistake/.DS_Store
+        new file:   Advanced by Mistake/Translator.py
+        new file:   Basic Problems/Problem1.py
+        new file:   Basic Problems/Problem2.py
+        new file:   Basics/.DS_Store
+        new file:   Basics/01 Basic Python/.DS_Store
+        new file:   Basics/01 Basic Python/Basic1.py
+        new file:   Basics/01 Basic Python/even_and_odd.py
+        new file:   Basics/01 Basic Python/test.py
+        new file:   Basics/01 Basic Python/test2.py
+        new file:   Basics/01 Basic Python/test3.py
+        new file:   Basics/01 Basic Python/test_tts.py
+        new file:   Basics/02 Basic Python Practice/Problem1.py
+        new file:   Basics/02 Basic Python Practice/Problem2.py
+        new file:   Basics/02 Basic Python Practice/Problem3.py
+        new file:   Basics/03 Variables and Data types/.DS_Store
+        new file:   Basics/03 Variables and Data types/Datatypes.py
+        new file:   Basics/03 Variables and Data types/Operators.py
+        new file:   Basics/03 Variables and Data types/Variables.py
+        new file:   Basics/03 Variables and Data types/id.py
+        new file:   Basics/03 Variables and Data types/input_funtion.py
+        new file:   Basics/03 Variables and Data types/rules_of_variables.py
+        new file:   Basics/03 Variables and Data types/setprator.py
+        new file:   Basics/03 Variables and Data types/test.py
+        new file:   Basics/03 Variables and Data types/types_and_typecasting.py
+        new file:   Basics/04 Variable and data types practice/.DS_Store
+        new file:   Basics/04 Variable and data types practice/Addition(2_numbers).py
+        new file:   Basics/04 Variable and data types practice/Comparision.py
+        new file:   Basics/04 Variable and data types practice/Division(2_numbers).py
+        new file:   Basics/04 Variable and data types practice/Type_of_funtion.py
+        new file:   Basics/04 Variable and data types practice/avg.py
+        new file:   Basics/04 Variable and data types practice/square.py
+        new file:   Basics/05 Strings/funtions.py
+        new file:   Basics/05 Strings/intro_of_strings.py
+        new file:   Basics/05 Strings/special_ sequence_characters.py
+        new file:   Basics/05 Strings/string_slicing.py
+        new file:   Basics/05 Strings/strings_with_boolean.py
+        new file:   Basics/06 Strings Practice/find and replace double spces.py
+        new file:   Basics/06 Strings Practice/fstrings.py
+        new file:   Basics/06 Strings Practice/que1.py
+        new file:   Basics/06 Strings Practice/que2.py
+        new file:   Basics/06 Strings Practice/que5.py
+        new file:   Basics/07 Lists and Tuples/list_basics.py
+        new file:   Basics/07 Lists and Tuples/list_methods.py
+        new file:   Basics/07 Lists and Tuples/matrix.py
+        new file:   Basics/07 Lists and Tuples/tuple_methods.py
+        new file:   Basics/07 Lists and Tuples/tuples.py
+        new file:   Basics/08 Lists and Tuples Practice/.ipynb_checkpoints/7_fruits-checkpoint.py
+        new file:   Basics/08 Lists and Tuples Practice/6_students_marks.py
+        new file:   Basics/08 Lists and Tuples Practice/7_fruits.py
+        new file:   Basics/08 Lists and Tuples Practice/list_element_sum.py
+        new file:   Basics/08 Lists and Tuples Practice/que3.py
+        new file:   Basics/08 Lists and Tuples Practice/que5.py
+        new file:   Basics/09 Dictionary and Sets/Dictionary.py
+        new file:   Basics/09 Dictionary and Sets/Dictionary_methods.py
+        new file:   Basics/09 Dictionary and Sets/sets.py
+        new file:   Basics/09 Dictionary and Sets/sets_methods.py
+        new file:   Basics/10 Dictionary and Sets Practice/.DS_Store
+        new file:   Basics/10 Dictionary and Sets Practice/que1.py
+        new file:   Basics/10 Dictionary and Sets Practice/que2.py
+        new file:   Basics/10 Dictionary and Sets Practice/que3.py
+        new file:   Basics/10 Dictionary and Sets Practice/que4.py
+        new file:   Basics/10 Dictionary and Sets Practice/que5.py
+        new file:   Basics/10 Dictionary and Sets Practice/que9.py
+        new file:   Basics/10 Dictionary and Sets Practice/updating_dict.py
+        new file:   Basics/11 Conditional Expressions/Improved_Terminal_Calculator.py
+        new file:   Basics/11 Conditional Expressions/Terminal_Calculator.py
+        new file:   Basics/11 Conditional Expressions/Truthy_Falsey.py
+        new file:   Basics/11 Conditional Expressions/if-elif-else.py
+        new file:   Basics/12 Conditional Expressions Practice/Result_calculator.py
+        new file:   Basics/12 Conditional Expressions Practice/Result_grader.py
+        new file:   Basics/12 Conditional Expressions Practice/improved_que1.py
+        new file:   Basics/12 Conditional Expressions Practice/que1.py
+        new file:   Basics/12 Conditional Expressions Practice/que3.py
+        new file:   Basics/12 Conditional Expressions Practice/que4.py
+        new file:   Basics/12 Conditional Expressions Practice/que5.py
+        new file:   Basics/12 Conditional Expressions Practice/que7.py
+        new file:   Basics/13 Loops/loop-for-errors.py
+        new file:   Basics/13 Loops/loops.py
+        new file:   Basics/14 Loops Practice/Multiplication_table.py
+        new file:   Basics/14 Loops Practice/Multiplication_table2.py
+        new file:   Basics/14 Loops Practice/Multiplication_table_Reversed.py
+        new file:   Basics/14 Loops Practice/Prime_Number_Check.py
+        new file:   Basics/14 Loops Practice/factorial.py
+        new file:   Basics/14 Loops Practice/que2.py
+        new file:   Basics/14 Loops Practice/que7.py
+        new file:   Basics/14 Loops Practice/que8.py
+        new file:   Basics/14 Loops Practice/que9.py
+        new file:   Basics/14 Loops Practice/sum_of_n_numbers.py
+        new file:   Basics/15 Functions and Recursions/Improved_Terminal_Calculator_func.py
+        new file:   Basics/15 Functions and Recursions/default_paramatric_value.py
+        new file:   Basics/15 Functions and Recursions/existing_strings.py
+        new file:   Basics/15 Functions and Recursions/function_return.py
+        new file:   Basics/15 Functions and Recursions/functions.py
+        new file:   Basics/15 Functions and Recursions/functions_with_argument.py
+        new file:   Basics/15 Functions and Recursions/recursions.py
+        new file:   Basics/16 Functions and Recursions Practice/celsius_to_fahrenhite.py
+        new file:   Basics/16 Functions and Recursions Practice/inch_to_cm.py
+        new file:   Basics/16 Functions and Recursions Practice/multiplication_ table_func.py
+        new file:   Basics/16 Functions and Recursions Practice/que1.py
+        new file:   Basics/16 Functions and Recursions Practice/que3.py
+        new file:   Basics/16 Functions and Recursions Practice/que4.py
+        new file:   Basics/16 Functions and Recursions Practice/que5.py
+        new file:   Basics/16 Functions and Recursions Practice/que7.py
+        new file:   Basics/17 Project 1/__pycache__/random.cpython-313.pyc
+        new file:   Basics/17 Project 1/random1.py
+        new file:   Basics/17 Project 1/rockpaperscissors.py
+        new file:   Basics/18 File IO/.DS_Store
+        new file:   Basics/18 File IO/OS_module.py
+        new file:   Basics/18 File IO/README-EN.txt
+        new file:   Basics/18 File IO/fileappend.py
+        new file:   Basics/18 File IO/fileread.py
+        new file:   Basics/18 File IO/fileupdating.py
+        new file:   Basics/18 File IO/filewrite.py
+        new file:   Basics/18 File IO/myfile.txt
+        new file:   Basics/18 File IO/myfile1.txt
+        new file:   Basics/18 File IO/new_folder/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/b/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/b/c/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/b/c/d/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/b/c/d/e/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/b/c/d/e/d/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/b/c/d/e/d/e/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/b/c/d/e/d/e/d/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/b/c/d/e/d/e/d/fg/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/b/c/d/e/d/e/d/fg/d/.DS_Store
+        new file:   Basics/18 File IO/new_folder/a/b/c/d/e/d/e/d/fg/d/dx/.DS_Store
+        new file:   Basics/18 File IO/with_statement.py
+        new file:   Basics/19 File IO Practice/.DS_Store
+        new file:   Basics/19 File IO Practice/bad-word.txt
+        new file:   Basics/19 File IO Practice/donkey.txt
+        new file:   Basics/19 File IO Practice/hiscore.txt
+        new file:   Basics/19 File IO Practice/poem.txt
+        new file:   Basics/19 File IO Practice/que1.py
+        new file:   Basics/19 File IO Practice/que10.py
+        new file:   Basics/19 File IO Practice/que11.py
+        new file:   Basics/19 File IO Practice/que2.py
+        new file:   Basics/19 File IO Practice/que3.py
+        new file:   Basics/19 File IO Practice/que4.py
+        new file:   Basics/19 File IO Practice/que5.py
+        new file:   Basics/19 File IO Practice/que6.py
+        new file:   Basics/19 File IO Practice/que7.py
+        new file:   Basics/19 File IO Practice/que8.py
+        new file:   Basics/19 File IO Practice/que9.py
+        new file:   Basics/19 File IO Practice/random_log.txt
+        new file:   Basics/19 File IO Practice/random_paragraph.txt
+        new file:   Basics/19 File IO Practice/random_paragraph_2.txt
+        new file:   Basics/19 File IO Practice/random_paragraph_copy.txt
+        new file:   Basics/20 Object Oriented Programming/class.py
+        new file:   Basics/20 Object Oriented Programming/class2.py
+        new file:   Basics/20 Object Oriented Programming/methods.py
+        new file:   Basics/21 Object Oriented Programing Practice/.DS_Store
+        new file:   Basics/21 Object Oriented Programing Practice/cacl-sq.py
+        new file:   Basics/21 Object Oriented Programing Practice/failed_que-1.py
+        new file:   Basics/21 Object Oriented Programing Practice/failed_que1.py
+        new file:   Basics/21 Object Oriented Programing Practice/problem1.py
+        new file:   Basics/21 Object Oriented Programing Practice/problem2.py
+        new file:   Basics/21 Object Oriented Programing Practice/que3.py
+        new file:   Basics/21 Object Oriented Programing Practice/que4.py
+        new file:   Basics/21 Object Oriented Programing Practice/que5.py/.DS_Store
+        new file:   "Basics/21 Object Oriented Programing Practice/que5.py/Screenshot 2025-08-31 at 6.35.07\342\200\257PM.png"
+        new file:   Basics/21 Object Oriented Programing Practice/que5.py/Train/2344
+        new file:   Basics/21 Object Oriented Programing Practice/que5.py/Train/2345
+        new file:   Basics/21 Object Oriented Programing Practice/que5.py/Train/2445
+        new file:   Basics/21 Object Oriented Programing Practice/que5.py/Train/3677
+        new file:   Basics/21 Object Oriented Programing Practice/que5.py/Train/987
+        new file:   Basics/21 Object Oriented Programing Practice/que5.py/diecared_train_ticket.py
+        new file:   Basics/21 Object Oriented Programing Practice/que5.py/que5.py
+        new file:   Basics/21 Object Oriented Programing Practice/que_1.py
+        new file:   Basics/21 Object Oriented Programing Practice/que_1/.DS_Store
+        new file:   Basics/21 Object Oriented Programing Practice/que_1/Employee info/.DS_Store
+        new file:   Basics/21 Object Oriented Programing Practice/que_1/Employee info/Microsoft/Mayank Sumra.txt
+        new file:   Basics/21 Object Oriented Programing Practice/que_1/Employee info/Microsoft/arjun.txt
+        new file:   Basics/22 Inheritance & More on OOPs/Inheritance.py
+        new file:   Basics/22 Inheritance & More on OOPs/classmethod.py
+        new file:   Basics/22 Inheritance & More on OOPs/del.py
+        new file:   Basics/22 Inheritance & More on OOPs/operator_overloading.py
+        new file:   Basics/22 Inheritance & More on OOPs/polymorphism.py
+        new file:   Basics/22 Inheritance & More on OOPs/private_public.py
+        new file:   Basics/22 Inheritance & More on OOPs/property.py
+        new file:   Basics/22 Inheritance & More on OOPs/super().py
+        new file:   Basics/23 Inheritance and more on OPP/problem1.py
+        new file:   Basics/23 Inheritance and more on OPP/problem2.py
+        new file:   Basics/23 Inheritance and more on OPP/problem3.py
+        new file:   Basics/23 Inheritance and more on OPP/problem4.py
+        new file:   Basics/23 Inheritance and more on OPP/problem5.py
+        new file:   Basics/24 Formatting/formatting.py
+        new file:   Basics/Bennett-py/.DS_Store
+        new file:   Basics/Bennett-py/Assignments/.DS_Store
+        new file:   Basics/Bennett-py/Assignments/assign_1.py
+        new file:   Basics/Bennett-py/Assignments/assign_2.py
+        new file:   Basics/Bennett-py/Lecture notes and ques/.DS_Store
+        new file:   Basics/Bennett-py/Lecture notes and ques/Lec-2.pdf
+        new file:   Basics/Bennett-py/Lecture notes and ques/Lecture 2. Why Python.pptx
+        new file:   Basics/Bennett-py/Lecture notes and ques/Lecture 3. Data and Expressions.pdf
+        new file:   Basics/Bennett-py/Lecture notes and ques/Lecture 4,5.pptx
+        new file:   Basics/Bennett-py/Lecture notes and ques/Lecture-1.pdf
+        new file:   Basics/Bennett-py/class/Problem3.py
+        new file:   Basics/Bennett-py/class/h.py
+        new file:   Basics/Bennett-py/class/list_que.py
+        new file:   Basics/Bennett-py/class/newfile.py
+        new file:   Basics/Bennett-py/class/steps.py
+        new file:   Binary/Basics.txt
+        new file:   IMG_0088.PNG
+        new file:   "Image 23-09-25 at 12.16\342\200\257PM.PNG"
+        new file:   "Screenshot 2025-08-22 at 12.57.06\342\200\257AM.png"
+
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git commit -m "added Python Learning"
+[main (root-commit) eaf6efa] added Python Learning
+ 214 files changed, 10032 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/Python Learning.iml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .vscode/settings.json
+ create mode 100644 Advanced by Mistake/.DS_Store
+ create mode 100644 Advanced by Mistake/Translator.py
+ create mode 100644 Basic Problems/Problem1.py
+ create mode 100644 Basic Problems/Problem2.py
+ create mode 100644 Basics/.DS_Store
+ create mode 100644 Basics/01 Basic Python/.DS_Store
+ create mode 100644 Basics/01 Basic Python/Basic1.py
+ create mode 100644 Basics/01 Basic Python/even_and_odd.py
+ create mode 100644 Basics/01 Basic Python/test.py
+ create mode 100644 Basics/01 Basic Python/test2.py
+ create mode 100644 Basics/01 Basic Python/test3.py
+ create mode 100644 Basics/01 Basic Python/test_tts.py
+ create mode 100644 Basics/02 Basic Python Practice/Problem1.py
+ create mode 100644 Basics/02 Basic Python Practice/Problem2.py
+ create mode 100644 Basics/02 Basic Python Practice/Problem3.py
+ create mode 100644 Basics/03 Variables and Data types/.DS_Store
+ create mode 100644 Basics/03 Variables and Data types/Datatypes.py
+ create mode 100644 Basics/03 Variables and Data types/Operators.py
+ create mode 100644 Basics/03 Variables and Data types/Variables.py
+ create mode 100644 Basics/03 Variables and Data types/id.py
+ create mode 100644 Basics/03 Variables and Data types/input_funtion.py
+ create mode 100644 Basics/03 Variables and Data types/rules_of_variables.py
+ create mode 100644 Basics/03 Variables and Data types/setprator.py
+ create mode 100644 Basics/03 Variables and Data types/test.py
+ create mode 100644 Basics/03 Variables and Data types/types_and_typecasting.py
+ create mode 100644 Basics/04 Variable and data types practice/.DS_Store
+ create mode 100644 Basics/04 Variable and data types practice/Addition(2_numbers).py
+ create mode 100644 Basics/04 Variable and data types practice/Comparision.py
+ create mode 100644 Basics/04 Variable and data types practice/Division(2_numbers).py
+ create mode 100644 Basics/04 Variable and data types practice/Type_of_funtion.py
+ create mode 100644 Basics/04 Variable and data types practice/avg.py
+ create mode 100644 Basics/04 Variable and data types practice/square.py
+ create mode 100644 Basics/05 Strings/funtions.py
+ create mode 100644 Basics/05 Strings/intro_of_strings.py
+ create mode 100644 Basics/05 Strings/special_ sequence_characters.py
+ create mode 100644 Basics/05 Strings/string_slicing.py
+ create mode 100644 Basics/05 Strings/strings_with_boolean.py
+ create mode 100644 Basics/06 Strings Practice/find and replace double spces.py
+ create mode 100644 Basics/06 Strings Practice/fstrings.py
+ create mode 100644 Basics/06 Strings Practice/que1.py
+ create mode 100644 Basics/06 Strings Practice/que2.py
+ create mode 100644 Basics/06 Strings Practice/que5.py
+ create mode 100644 Basics/07 Lists and Tuples/list_basics.py
+ create mode 100644 Basics/07 Lists and Tuples/list_methods.py
+ create mode 100644 Basics/07 Lists and Tuples/matrix.py
+ create mode 100644 Basics/07 Lists and Tuples/tuple_methods.py
+ create mode 100644 Basics/07 Lists and Tuples/tuples.py
+ create mode 100644 Basics/08 Lists and Tuples Practice/.ipynb_checkpoints/7_fruits-checkpoint.py
+ create mode 100644 Basics/08 Lists and Tuples Practice/6_students_marks.py
+ create mode 100644 Basics/08 Lists and Tuples Practice/7_fruits.py
+ create mode 100644 Basics/08 Lists and Tuples Practice/list_element_sum.py
+ create mode 100644 Basics/08 Lists and Tuples Practice/que3.py
+ create mode 100644 Basics/08 Lists and Tuples Practice/que5.py
+ create mode 100644 Basics/09 Dictionary and Sets/Dictionary.py
+ create mode 100644 Basics/09 Dictionary and Sets/Dictionary_methods.py
+ create mode 100644 Basics/09 Dictionary and Sets/sets.py
+ create mode 100644 Basics/09 Dictionary and Sets/sets_methods.py
+ create mode 100644 Basics/10 Dictionary and Sets Practice/.DS_Store
+ create mode 100644 Basics/10 Dictionary and Sets Practice/que1.py
+ create mode 100644 Basics/10 Dictionary and Sets Practice/que2.py
+ create mode 100644 Basics/10 Dictionary and Sets Practice/que3.py
+ create mode 100644 Basics/10 Dictionary and Sets Practice/que4.py
+ create mode 100644 Basics/10 Dictionary and Sets Practice/que5.py
+ create mode 100644 Basics/10 Dictionary and Sets Practice/que9.py
+ create mode 100644 Basics/10 Dictionary and Sets Practice/updating_dict.py
+ create mode 100644 Basics/11 Conditional Expressions/Improved_Terminal_Calculator.py
+ create mode 100644 Basics/11 Conditional Expressions/Terminal_Calculator.py
+ create mode 100644 Basics/11 Conditional Expressions/Truthy_Falsey.py
+ create mode 100644 Basics/11 Conditional Expressions/if-elif-else.py
+ create mode 100644 Basics/12 Conditional Expressions Practice/Result_calculator.py
+ create mode 100644 Basics/12 Conditional Expressions Practice/Result_grader.py
+ create mode 100644 Basics/12 Conditional Expressions Practice/improved_que1.py
+ create mode 100644 Basics/12 Conditional Expressions Practice/que1.py
+ create mode 100644 Basics/12 Conditional Expressions Practice/que3.py
+ create mode 100644 Basics/12 Conditional Expressions Practice/que4.py
+ create mode 100644 Basics/12 Conditional Expressions Practice/que5.py
+ create mode 100644 Basics/12 Conditional Expressions Practice/que7.py
+ create mode 100644 Basics/13 Loops/loop-for-errors.py
+ create mode 100644 Basics/13 Loops/loops.py
+ create mode 100644 Basics/14 Loops Practice/Multiplication_table.py
+ create mode 100644 Basics/14 Loops Practice/Multiplication_table2.py
+ create mode 100644 Basics/14 Loops Practice/Multiplication_table_Reversed.py
+ create mode 100644 Basics/14 Loops Practice/Prime_Number_Check.py
+ create mode 100644 Basics/14 Loops Practice/factorial.py
+ create mode 100644 Basics/14 Loops Practice/que2.py
+ create mode 100644 Basics/14 Loops Practice/que7.py
+ create mode 100644 Basics/14 Loops Practice/que8.py
+ create mode 100644 Basics/14 Loops Practice/que9.py
+ create mode 100644 Basics/14 Loops Practice/sum_of_n_numbers.py
+ create mode 100644 Basics/15 Functions and Recursions/Improved_Terminal_Calculator_func.py
+ create mode 100644 Basics/15 Functions and Recursions/default_paramatric_value.py
+ create mode 100644 Basics/15 Functions and Recursions/existing_strings.py
+ create mode 100644 Basics/15 Functions and Recursions/function_return.py
+ create mode 100644 Basics/15 Functions and Recursions/functions.py
+ create mode 100644 Basics/15 Functions and Recursions/functions_with_argument.py
+ create mode 100644 Basics/15 Functions and Recursions/recursions.py
+ create mode 100644 Basics/16 Functions and Recursions Practice/celsius_to_fahrenhite.py
+ create mode 100644 Basics/16 Functions and Recursions Practice/inch_to_cm.py
+ create mode 100644 Basics/16 Functions and Recursions Practice/multiplication_ table_func.py
+ create mode 100644 Basics/16 Functions and Recursions Practice/que1.py
+ create mode 100644 Basics/16 Functions and Recursions Practice/que3.py
+ create mode 100644 Basics/16 Functions and Recursions Practice/que4.py
+ create mode 100644 Basics/16 Functions and Recursions Practice/que5.py
+ create mode 100644 Basics/16 Functions and Recursions Practice/que7.py
+ create mode 100644 Basics/17 Project 1/__pycache__/random.cpython-313.pyc
+ create mode 100644 Basics/17 Project 1/random1.py
+ create mode 100644 Basics/17 Project 1/rockpaperscissors.py
+ create mode 100644 Basics/18 File IO/.DS_Store
+ create mode 100644 Basics/18 File IO/OS_module.py
+ create mode 100644 Basics/18 File IO/README-EN.txt
+ create mode 100644 Basics/18 File IO/fileappend.py
+ create mode 100644 Basics/18 File IO/fileread.py
+ create mode 100644 Basics/18 File IO/fileupdating.py
+ create mode 100644 Basics/18 File IO/filewrite.py
+ create mode 100644 Basics/18 File IO/myfile.txt
+ create mode 100644 Basics/18 File IO/myfile1.txt
+ create mode 100644 Basics/18 File IO/new_folder/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/b/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/b/c/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/b/c/d/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/b/c/d/e/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/b/c/d/e/d/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/b/c/d/e/d/e/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/b/c/d/e/d/e/d/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/b/c/d/e/d/e/d/fg/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/b/c/d/e/d/e/d/fg/d/.DS_Store
+ create mode 100644 Basics/18 File IO/new_folder/a/b/c/d/e/d/e/d/fg/d/dx/.DS_Store
+ create mode 100644 Basics/18 File IO/with_statement.py
+ create mode 100644 Basics/19 File IO Practice/.DS_Store
+ create mode 100644 Basics/19 File IO Practice/bad-word.txt
+ create mode 100644 Basics/19 File IO Practice/donkey.txt
+ create mode 100644 Basics/19 File IO Practice/hiscore.txt
+ create mode 100644 Basics/19 File IO Practice/poem.txt
+ create mode 100644 Basics/19 File IO Practice/que1.py
+ create mode 100644 Basics/19 File IO Practice/que10.py
+ create mode 100644 Basics/19 File IO Practice/que11.py
+ create mode 100644 Basics/19 File IO Practice/que2.py
+ create mode 100644 Basics/19 File IO Practice/que3.py
+ create mode 100644 Basics/19 File IO Practice/que4.py
+ create mode 100644 Basics/19 File IO Practice/que5.py
+ create mode 100644 Basics/19 File IO Practice/que6.py
+ create mode 100644 Basics/19 File IO Practice/que7.py
+ create mode 100644 Basics/19 File IO Practice/que8.py
+ create mode 100644 Basics/19 File IO Practice/que9.py
+ create mode 100644 Basics/19 File IO Practice/random_log.txt
+ create mode 100644 Basics/19 File IO Practice/random_paragraph.txt
+ create mode 100644 Basics/19 File IO Practice/random_paragraph_2.txt
+ create mode 100644 Basics/19 File IO Practice/random_paragraph_copy.txt
+ create mode 100644 Basics/20 Object Oriented Programming/class.py
+ create mode 100644 Basics/20 Object Oriented Programming/class2.py
+ create mode 100644 Basics/20 Object Oriented Programming/methods.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/.DS_Store
+ create mode 100644 Basics/21 Object Oriented Programing Practice/cacl-sq.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/failed_que-1.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/failed_que1.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/problem1.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/problem2.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que3.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que4.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que5.py/.DS_Store
+ create mode 100644 "Basics/21 Object Oriented Programing Practice/que5.py/Screenshot 2025-08-31 at 6.35.07\342\200\257PM.png"
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que5.py/Train/2344
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que5.py/Train/2345
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que5.py/Train/2445
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que5.py/Train/3677
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que5.py/Train/987
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que5.py/diecared_train_ticket.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que5.py/que5.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que_1.py
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que_1/.DS_Store
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que_1/Employee info/.DS_Store
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que_1/Employee info/Microsoft/Mayank Sumra.txt
+ create mode 100644 Basics/21 Object Oriented Programing Practice/que_1/Employee info/Microsoft/arjun.txt
+ create mode 100644 Basics/22 Inheritance & More on OOPs/Inheritance.py
+ create mode 100644 Basics/22 Inheritance & More on OOPs/classmethod.py
+ create mode 100644 Basics/22 Inheritance & More on OOPs/del.py
+ create mode 100644 Basics/22 Inheritance & More on OOPs/operator_overloading.py
+ create mode 100644 Basics/22 Inheritance & More on OOPs/polymorphism.py
+ create mode 100644 Basics/22 Inheritance & More on OOPs/private_public.py
+ create mode 100644 Basics/22 Inheritance & More on OOPs/property.py
+ create mode 100644 Basics/22 Inheritance & More on OOPs/super().py
+ create mode 100644 Basics/23 Inheritance and more on OPP/problem1.py
+ create mode 100644 Basics/23 Inheritance and more on OPP/problem2.py
+ create mode 100644 Basics/23 Inheritance and more on OPP/problem3.py
+ create mode 100644 Basics/23 Inheritance and more on OPP/problem4.py
+ create mode 100644 Basics/23 Inheritance and more on OPP/problem5.py
+ create mode 100644 Basics/24 Formatting/formatting.py
+ create mode 100644 Basics/Bennett-py/.DS_Store
+ create mode 100644 Basics/Bennett-py/Assignments/.DS_Store
+ create mode 100644 Basics/Bennett-py/Assignments/assign_1.py
+ create mode 100644 Basics/Bennett-py/Assignments/assign_2.py
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/.DS_Store
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lec-2.pdf
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lecture 2. Why Python.pptx
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lecture 3. Data and Expressions.pdf
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lecture 4,5.pptx
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lecture-1.pdf
+ create mode 100644 Basics/Bennett-py/class/Problem3.py
+ create mode 100644 Basics/Bennett-py/class/h.py
+ create mode 100644 Basics/Bennett-py/class/list_que.py
+ create mode 100644 Basics/Bennett-py/class/newfile.py
+ create mode 100644 Basics/Bennett-py/class/steps.py
+ create mode 100644 Binary/Basics.txt
+ create mode 100644 IMG_0088.PNG
+ create mode 100644 "Image 23-09-25 at 12.16\342\200\257PM.PNG"
+ create mode 100644 "Screenshot 2025-08-22 at 12.57.06\342\200\257AM.png"
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git status
+On branch main
+nothing to commit, working tree clean
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git push origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % ls -a
+.                                               Basic Problems
+..                                              Basics
+.DS_Store                                       Binary
+.git                                            IMG_0088.PNG
+.idea                                           Image 23-09-25 at 12.16 PM.PNG
+.vscode                                         Screenshot 2025-08-22 at 12.57.06 AM.png
+Advanced by Mistake
 (base) mayanksumra@Mayanks-MacBook-Air Python Learning % git remote add Programming https://github.com/mayanksumra/Programming.git
 (base) mayanksumra@Mayanks-MacBook-Air Python Learning % git remote -v
 Programming     https://github.com/mayanksumra/Programming.git (fetch)
@@ -224,4 +702,156 @@ Author: Mayank Sumra <mayanksumra55@gmail.com>
 Date:   Wed Sep 24 13:11:01 2025 +0530
 
     added Python Learning
-(base) mayanksumra@Mayanks-MacBook-Air Python Learning % 
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git status
+On branch main
+nothing to commit, working tree clean
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % cd ..
+(base) mayanksumra@Mayanks-MacBook-Air Programming % git status
+fatal: not a git repository (or any of the parent directories): .git
+(base) mayanksumra@Mayanks-MacBook-Air Programming % git init  
+Initialized empty Git repository in /Users/mayanksumra/Programming/.git/
+(base) mayanksumra@Mayanks-MacBook-Air Programming % git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        Git/
+        Python Learning/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) mayanksumra@Mayanks-MacBook-Air Programming % git add .
+warning: adding embedded git repository: Git/python
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Git/python
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Git/python
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+warning: adding embedded git repository: Python Learning
+(base) mayanksumra@Mayanks-MacBook-Air Programming % git reset
+(base) mayanksumra@Mayanks-MacBook-Air Programming % git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        Git/
+        Python Learning/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) mayanksumra@Mayanks-MacBook-Air Programming % git status
+fatal: not a git repository (or any of the parent directories): .git
+(base) mayanksumra@Mayanks-MacBook-Air Programming % cd Git/python
+(base) mayanksumra@Mayanks-MacBook-Air python % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Terminal logs
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) mayanksumra@Mayanks-MacBook-Air python % git add .
+(base) mayanksumra@Mayanks-MacBook-Air python % git commit -m "added logs"    
+[main e3b561e] added logs
+ 1 file changed, 86 insertions(+), 1 deletion(-)
+(base) mayanksumra@Mayanks-MacBook-Air python % git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.33 KiB | 1.33 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mayanksumra/python.git
+   69d806a..e3b561e  main -> main
+(base) mayanksumra@Mayanks-MacBook-Air python % git add .
+(base) mayanksumra@Mayanks-MacBook-Air python % git commit -m "Rename of Terminal logs to Git Ter..."
+[main e347878] Rename of Terminal logs to Git Ter...
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename Terminal logs => Git Terminal logs (100%)
+(base) mayanksumra@Mayanks-MacBook-Air python % git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 252 bytes | 252.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/mayanksumra/Git_logs_Practice.git
+To https://github.com/mayanksumra/python.git
+   e3b561e..e347878  main -> main
+(base) mayanksumra@Mayanks-MacBook-Air python % git branch
+* main
+(base) mayanksumra@Mayanks-MacBook-Air python % git status          
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git_cheatsheet.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) mayanksumra@Mayanks-MacBook-Air python % git add .
+(base) mayanksumra@Mayanks-MacBook-Air python % git commit -m "added git cheatsheet"
+[main bdb1f74] added git cheatsheet
+ 1 file changed, 50 insertions(+)
+ create mode 100644 git_cheatsheet.txt
+(base) mayanksumra@Mayanks-MacBook-Air python % git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1012 bytes | 1012.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/mayanksumra/Git_logs_Practice.git
+To https://github.com/mayanksumra/python.git
+   e347878..bdb1f74  main -> main
+(base) mayanksumra@Mayanks-MacBook-Air python % cd ..    
+(base) mayanksumra@Mayanks-MacBook-Air Git % git pull Git_logs_Practice https://github.com/mayanksumra/Git_logs_Practice.git
+fatal: not a git repository (or any of the parent directories): .git
+(base) mayanksumra@Mayanks-MacBook-Air Git % ls -a   
+.       ..      python
+(base) mayanksumra@Mayanks-MacBook-Air Git % git init
+Initialized empty Git repository in /Users/mayanksumra/Programming/Git/.git/
+(base) mayanksumra@Mayanks-MacBook-Air Git % git pull Git_logs_Practice https://github.com/mayanksumra/Git_logs_Practice.git
+fatal: invalid refspec 'https://github.com/mayanksumra/Git_logs_Practice.git'
+(base) mayanksumra@Mayanks-MacBook-Air Git % git remote add Git_logs_Practice https://github.com/mayanksumra/Git_logs_Practice.git
+(base) mayanksumra@Mayanks-MacBook-Air Git % git remote -v
+Git_logs_Practice       https://github.com/mayanksumra/Git_logs_Practice.git (fetch)
+Git_logs_Practice       https://github.com/mayanksumra/Git_logs_Practice.git (push)
+(base) mayanksumra@Mayanks-MacBook-Air Git % git pull
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 19 (delta 4), reused 15 (delta 3), pack-reused 0 (from 0)
+Unpacking objects: 100% (19/19), 4.63 KiB | 338.00 KiB/s, done.
+From https://github.com/mayanksumra/Git_logs_Practice
+ * [new branch]      main       -> Git_logs_Practice/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=Git_logs_Practice/<branch> main
+
+(base) mayanksumra@Mayanks-MacBook-Air Git % 
