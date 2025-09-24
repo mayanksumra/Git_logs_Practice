@@ -1,1 +1,98 @@
-hello
+(base) mayanksumra@Mayanks-MacBook-Air Programming % git --version 
+git version 2.50.1 (Apple Git-155)
+(base) mayanksumra@Mayanks-MacBook-Air Programming % cd Git/
+(base) mayanksumra@Mayanks-MacBook-Air Git % git clone https://github.com/mayanksumra/python.git
+Cloning into 'python'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+(base) mayanksumra@Mayanks-MacBook-Air Git % ls
+python
+(base) mayanksumra@Mayanks-MacBook-Air Git % ls -a
+.       ..      python
+(base) mayanksumra@Mayanks-MacBook-Air Git % ls status
+ls: status: No such file or directory
+(base) mayanksumra@Mayanks-MacBook-Air Git % cd Git/python
+cd: no such file or directory: Git/python
+(base) mayanksumra@Mayanks-MacBook-Air Git % Git/python/
+zsh: no such file or directory: Git/python/
+(base) mayanksumra@Mayanks-MacBook-Air Git % cd python/
+(base) mayanksumra@Mayanks-MacBook-Air python % ls status
+ls: status: No such file or directory
+(base) mayanksumra@Mayanks-MacBook-Air python % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) mayanksumra@Mayanks-MacBook-Air python % cd Git
+cd: no such file or directory: Git
+(base) mayanksumra@Mayanks-MacBook-Air python % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) mayanksumra@Mayanks-MacBook-Air python % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) mayanksumra@Mayanks-MacBook-Air python % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) mayanksumra@Mayanks-MacBook-Air python % git add index.html
+\%                                                                                                              
+(base) mayanksumra@Mayanks-MacBook-Air python % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git notes
+
+(base) mayanksumra@Mayanks-MacBook-Air python % git add .
+(base) mayanksumra@Mayanks-MacBook-Air python % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   git notes
+        modified:   hello
+        new file:   index.html
+
+(base) mayanksumra@Mayanks-MacBook-Air python % 
