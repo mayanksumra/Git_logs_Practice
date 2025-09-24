@@ -1,0 +1,50 @@
+
+=============================
+ GIT CHEATSHEET (Beginner)
+=============================
+
+🔹 Setup (first time only)
+-----------------------------
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+git config --list              # check settings
+
+🔹 Start a new repository
+-----------------------------
+git init                       # initialize git in current folder
+git status                     # check changes
+
+🔹 Staging & committing
+-----------------------------
+git add file.py                # stage a specific file
+git add .                      # stage all files
+git commit -m "message"        # save snapshot
+
+🔹 Remote repositories (GitHub)
+-----------------------------
+git remote add origin <URL>    # connect local repo to GitHub
+git remote -v                  # verify remote URLs
+git branch -M main             # rename default branch to main
+git push -u origin main        # push first time
+git push                       # push changes later
+git pull                       # get latest from GitHub
+
+🔹 Branching & merging
+-----------------------------
+git branch                     # list branches
+git branch new-feature         # create branch
+git checkout new-feature       # switch branch
+git checkout -b new-feature    # create + switch in one step
+git merge new-feature          # merge branch into current
+
+🔹 Undoing changes
+-----------------------------
+git log                        # show commit history
+git diff                       # see unstaged changes
+git restore file.py            # discard unstaged changes
+git reset --hard HEAD          # reset everything to last commit
+
+🔹 Update repo name (after renaming on GitHub)
+-----------------------------
+git remote set-url origin https://github.com/USERNAME/NEWNAME.git
+
