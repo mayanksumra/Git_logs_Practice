@@ -854,4 +854,133 @@ If you wish to set tracking information for this branch you can do so with:
 
     git branch --set-upstream-to=Git_logs_Practice/<branch> main
 
-(base) mayanksumra@Mayanks-MacBook-Air Git % 
+(base) mayanksumra@Mayanks-MacBook-Air Git % cd Git/Git_logs_Practice
+(base) mayanksumra@Mayanks-MacBook-Air Git_logs_Practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) mayanksumra@Mayanks-MacBook-Air Git_logs_Practice % git push origin main
+Everything up-to-date
+(base) mayanksumra@Mayanks-MacBook-Air Git_logs_Practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) mayanksumra@Mayanks-MacBook-Air Git_logs_Practice % cd ..
+(base) mayanksumra@Mayanks-MacBook-Air Git % cd ..
+(base) mayanksumra@Mayanks-MacBook-Air Programming % cd "Python Learning"
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .DS_Store
+        modified:   Basics/.DS_Store
+        modified:   Basics/Bennett-py/.DS_Store
+        modified:   Basics/Bennett-py/Lecture notes and ques/.DS_Store
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Basics/Bennett-py/Lecture notes and ques/Lecture 10.pptx
+        Basics/Bennett-py/Lecture notes and ques/Lecture 11 Dict.pptx
+        Basics/Bennett-py/Lecture notes and ques/Lecture 12 Strings.pdf
+        Basics/Bennett-py/Lecture notes and ques/Lecture 6.pptx
+        Basics/Bennett-py/Lecture notes and ques/Lecture 7,8.pptx
+        Basics/Bennett-py/Lecture notes and ques/Lecture 9.pptx
+        Basics/Bennett-py/Lecture notes and ques/Think Python Book.pdf
+        Basics/Bennett-py/Mid term Syllabus/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git add .
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git commit -m "added lec notes"
+[main 68bb564] added lec notes
+ 13 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lecture 10.pptx
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lecture 11 Dict.pptx
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lecture 12 Strings.pdf
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lecture 6.pptx
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lecture 7,8.pptx
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Lecture 9.pptx
+ create mode 100644 Basics/Bennett-py/Lecture notes and ques/Think Python Book.pdf
+ create mode 100644 Basics/Bennett-py/Mid term Syllabus/.DS_Store
+ create mode 100644 Basics/Bennett-py/Mid term Syllabus/Mid Term Syllabus.docx
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git push Programmimg main
+fatal: 'Programmimg' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git branch
+* main
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git push origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % remote -v
+zsh: command not found: remote
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git remote -v
+Programming     https://github.com/mayanksumra/Programming.git (fetch)
+Programming     https://github.com/mayanksumra/Programming.git (push)
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git push Programming main
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (19/19), 9.27 MiB | 6.71 MiB/s, done.
+Total 19 (delta 9), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (9/9), completed with 6 local objects.
+To https://github.com/mayanksumra/Programming.git
+   eaf6efa..68bb564  main -> main
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % remote -v
+zsh: command not found: remote
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git remote -v
+Programming     https://github.com/mayanksumra/Programming.git (fetch)
+Programming     https://github.com/mayanksumra/Programming.git (push)
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git remote Programming rename origin       
+error: unknown subcommand: `Programming'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --[no-]verbose    be verbose; must be placed before a subcommand
+
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git remote rename Programming origin
+Renaming remote references: 100% (1/1), done.
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git add .
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git commit -m "minor"
+[main 87cdd13] minor
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 550 bytes | 550.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/mayanksumra/Python-Basics.git
+To https://github.com/mayanksumra/Programming.git
+   68bb564..87cdd13  main -> main
+(base) mayanksumra@Mayanks-MacBook-Air Python Learning % 
